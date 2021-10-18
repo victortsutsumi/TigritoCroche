@@ -1,0 +1,165 @@
+header {
+    padding: 10px 0;
+    background: linear-gradient(#c2f3be,#57e2a1);
+    margin-bottom: 20px;
+}
+
+.cabeçalho {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav {
+    position: initial;
+    top: -120px;
+    left: 300px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Monaco", "Courier New", monospace;
+    font-weight: bold;
+    width: 200px;
+}
+
+nav a:hover {
+    color: #1c18e0;
+    text-decoration: underline;
+}
+
+.social {
+    width: 2.5%;
+}
+
+.logo {
+    width: 25%;
+    border-radius: 50%;
+    display: inline;
+    background: #cccccc; 
+    margin-bottom: 15px;   
+}
+
+body {
+    background: #57e2a1;
+}
+
+.principal{
+    position: relative;
+    padding: 5px 0 50px 0; 
+    width: 940px; /*define a largura da página */
+    margin: 0 auto; /*centraliza */
+    background: #57e2a1;
+}
+
+.cidade {
+    text-align: center;
+    font-size: 24px;
+    font-family: "Georgia", Times, serif;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.info {
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    padding: 10px;
+    font-family: "Georgia", Times, serif;
+}
+
+.principal h2 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Georgia", Times, serif;
+}
+
+.fotos {
+    text-align: center;
+    border-radius: 10px;
+}
+
+.fotos li {
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+    vertical-align: top;
+    margin: 1.5%;   
+    border-radius: 10px;
+    background-color: rgb(252, 243, 243);
+}
+
+.fotos li h2 {
+    margin-top: 400px;
+    font-style: normal;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "Georgia", Times, serif;
+}
+
+
+.fotos li:hover {
+    border-color:rgb(6, 19, 192);
+    width: 46%;
+    font-size: 34px;
+}
+
+.fotos li:hover h2 {
+    margin-top: 410px;
+    font-style: normal;
+    font-size: 35px;
+    
+}
+
+.fotos p {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.fotos li:hover p {
+    font-size: 24px;
+}
+
+
+.croche {
+    width: 100%;
+    height: auto;
+    float:right;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.fim {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Georgia", Times, serif;
+    padding: 10px;
+}
+
+/*footer {
+    text-align: center; 
+    background: linear-gradient(#57e2a1, #15a160);
+    padding: 40px 0;
+}*/
+
+/*.copyright {
+    color: #1b1212;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 20px 0;
+}*/
+
+
+
+
+
+
